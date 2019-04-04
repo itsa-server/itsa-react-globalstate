@@ -23,8 +23,6 @@ module.exports = {
     globalstate
 };
 
-
-
 ```js
 const React = require("react"),
     reactGlobalState = require("itsa-react-globalstate"),
