@@ -1,0 +1,49 @@
+{
+    "project": {
+        "name": "itsa-react-globalstate",
+        "description": "Very easy to use, global state manager for React",
+        "logo": "https://avatars0.githubusercontent.com/u/8314644?v=3&s=84",
+        "version": "0.0.1"
+    },
+    "files": {
+        "lib/utils.js": {
+            "name": "lib/utils.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {},
+    "elements": {},
+    "classitems": [
+        {
+            "file": "lib/utils.js",
+            "line": 20,
+            "description": "Returns true if the item is a date",
+            "itemtype": "method",
+            "name": "itsa_isDate",
+            "static": 1,
+            "params": [
+                {
+                    "name": "item",
+                    "description": "the item to test.",
+                    "type": "Any"
+                },
+                {
+                    "name": "stringified",
+                    "description": "whether a stringified value should be tested as a valid Date pattern.",
+                    "type": "Boolean",
+                    "optional": true
+                }
+            ],
+            "return": {
+                "description": "true if the item is a date",
+                "type": "Boolean"
+            },
+            "class": ""
+        }
+    ],
+    "warnings": []
+}
