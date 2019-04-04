@@ -31,7 +31,7 @@ const React = require("react"),
 class Component extends React.Component {
     render() {
         return (
-            <div>Hello World! This component has the global state but doesn\'t use it.</div>
+            <div>Hello World! This component has the global state but doesn not use it.</div>
         );
     }
 }
