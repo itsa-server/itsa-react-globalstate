@@ -113,7 +113,7 @@ class Component extends React.Component {
     }
 }
 
-module.exports = reactGlobalState.connect(Component, "env", {message: "original"'});
+module.exports = reactGlobalState.connect(Component, "env", {message: "original"});
 ```
 
 
