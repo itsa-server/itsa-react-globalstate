@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ItsAsbreuk/itsa-react-globalstate.svg?branch=master)](https://travis-ci.org/ItsAsbreuk/itsa-react-globalstate)
+[![Build Status](https://api.travis-ci.com/itsa-server/itsa-react-globalstate.svg?branch=master)](https://travis-ci.com/itsa-server/itsa-react-globalstate)
 
 Very easy to use, global state manager for React.
 
