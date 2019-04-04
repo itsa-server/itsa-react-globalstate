@@ -1,6 +1,6 @@
 {
     "name": "itsa-react-globalstate",
-    "version": "16.0.0",
+    "version": "16.0.1",
     "description": "Very easy to use, global state manager for React",
     "author": [
         {
