@@ -31,12 +31,12 @@ const React = require("react"),
 class Component extends React.Component {
     render() {
         return (
-            <div>Hello World! This component has the global state but doesn't use it.</div>
+            <div>Hello World! This component has the global state but doesn\'t use it.</div>
         );
     }
 }
 
-module.exports = reactGlobalState.connect(Component, {message: 'original'});
+module.exports = reactGlobalState.connect(Component, {message: "original"});
 ```
 
 ### Using the global state:
@@ -67,7 +67,7 @@ class Component extends React.Component {
     }
 }
 
-module.exports = reactGlobalState.connect(Component, {message: 'original'});
+module.exports = reactGlobalState.connect(Component, {message: "original"});
 ```
 
 The signature of `globalstate.setState` is the same as React is setState(): you can use a function as first argument as well and set a second argument as callback. Additional, `globalstate.setState` returns a Promise that resolves with the new global state.
@@ -96,10 +96,10 @@ const React = require("react"),
 
 class Component extends React.Component {
     setStatus() {
-        subState.setState({status: 'Changed!'});
+        subState.setState({status: "Changed!"});
         // or, you could also use:
         //
-        // reactGlobalState.globalstate.setState({substate: {status: 'Changed!'}});
+        // reactGlobalState.globalstate.setState({substate: {status: "Changed!"}});
     }
 
     render() {
@@ -113,7 +113,7 @@ class Component extends React.Component {
     }
 }
 
-module.exports = reactGlobalState.connect(Component, 'env', {message: 'original'});
+module.exports = reactGlobalState.connect(Component, "env", {message: "original"'});
 ```
 
 
