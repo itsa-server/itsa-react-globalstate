@@ -132,9 +132,7 @@ module.exports = reactGlobalState.connect(Component, "env", {message: "original"
 `reactGlobalState.globalstate.getSubState().defineState(newState, callBack)`
 `reactGlobalState.globalstate.getSubState().setState(newState, callBack)`
 
-#### If you want to express your appreciation
-
-Feel free to donate to one of these addresses if you like the code.
+#### If you want to express your appreciation, you're free to make a small donation:
 
 * Ether: 0xE096EBC2D19eaE7dA8745AA5D71d4830Ef3DF963
 * Bitcoin: 37GgB6MrvuxyqkQnGjwxcn7vkcdont1Vmg
