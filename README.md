@@ -15,14 +15,6 @@ The first argument to `connect` is the container Component. The second argument 
 
 #### Example connecting and define an initial global state:
 
-const connect = require('./lib/connector'),
-    globalstate = require('./lib/globalstate');
-
-module.exports = {
-    connect,
-    globalstate
-};
-
 ```js
 const React = require("react"),
     reactGlobalState = require("itsa-react-globalstate"),
